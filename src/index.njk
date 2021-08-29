@@ -1,0 +1,76 @@
+---
+layout: layout.njk
+title: The Best Demo
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlazoredPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4ea44914ae.js"></script>
+</head>
+<body>
+</html>
+<section class="hero is-fullheight">
+      <div class='hero-head'>
+      </div>
+      <div class="hero-body has-text-centered">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column is-2">
+              <figure class="image is-4by3">
+                <img src="/img/soda_logo.png">
+              </figure>
+            </div>
+          </div>
+          <div class="level">
+            <div class="level-item">
+              <figure class="image is-128x128">
+                <img class="is-rounded" src="/img/Square_Poloroid_Self.jpg">
+              </figure>
+            </div>
+          </div>
+          <p class="title is-1">
+            Hello 🌐, my name is Alexander Hernandez.
+          </p>
+          <p class="subtitle is-3">
+             and I create websites and apps for small businesses and individuals.
+          </p>
+          <div class='columns'>
+            <div class='column is-offset-2'>
+              <p class='is-size-5'>Have a look at my
+                <a class='button is-primary is-inverted is-outlined ml-3'
+                @onclick="NavigateToResumeComponent">
+                  <span class='icon mr-1'>
+                    <i class="fas fa-book"></i>
+                  </span>
+                  Resume
+                </a>
+              </p>
+            </div>
+            <div class='column'>
+              <p class='is-size-5'>Or keep scrolling to see
+                <a class='button is-primary is-inverted is-outlined ml-3'
+                  href='#projects'>My Projects</a>
+              </p>
+            </div>
+          </div>
+          <div class="level">
+            <div class="level-left">
+              <SocialMediaButtons/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class=' is-fullwidth has-text-primary' href='#projects'>
+        <div class='hero-foot has-text-centered'>
+          <span class='icon is-large'>
+            <i class="fas fa-5x fa-chevron-down"></i>
+          </span>
+        </div>
+      </a>
+    </section>
+    {% include "projects.njk" %}
+</body>
