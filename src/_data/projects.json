@@ -1,0 +1,58 @@
+[
+  { 
+    "title" : "SFV Candle Shop",
+    "photoLink" : "/img/sfv_candles_home.png",
+    "photoDimension" : "is-2by1",
+    "photoStructure" : "12 2by1 /img/sfv_candles_home.png,6 2by1 /img/sfv_candles_shop.png 6 2by1 /img/sfv_candles_cart.png",
+    "description" : "a static ecommerce site for my mom to sell candles but she is not yet ready, so for that reason a payment system is left to be setup.",
+    "madeWith" : ["Gatsby", "Redux"],
+    "siteLink" : "https://sfv-candles.netlify.app/",
+    "sourceLink" : "https://github.com/BleedingEffigy/sfv_candle_shop"
+  },
+  {
+    "title": "¡Aguas! Crypto",
+    "photoLink" : "/img/Aguas_Crypto_Homepage.png",
+    "photoDimension" : "is-2by1",
+    "description" : "a webapp that compiles crypto market data into a form that is more easily digestible to me. It pulls data from express-backend, and collates and presents it through a react-made interface",
+    "madeWith" : ["React", "Redis", "Express.js"],
+    "siteLink" : "https://www.ahernandez.dev/trade/",
+    "sourceLink" : "https://glitch.com/edit/#!/us-deaths-overview"
+  },
+  {
+    "title" : "Navy DEP Blog",
+    "photoLink" : "/img/Navy_DEP_Blog_screengrab.png",
+    "photoDimension" : "is-3by2",
+    "description" : "A blog made with django for me to document my thoughts at a time when I thought I was going to be joining the navy.",
+    "madeWith" : ["Django", "Postgresql"],
+    "sourceLink" : "https://github.com/BleedingEffigy/navy-blog",
+    "siteLink" : "https://www.ahernandez.dev/navyblog/"
+  },
+  {
+    "title" : "Puppy Shop",
+    "photoLink" : "https://cdn.glitch.com/bbddd762-d831-470f-8c95-c27f41782ecb%2FSFV-Chow-%20Front-Page.png?v:1561529442317",
+    "photoDimension" : "is-2by1",
+    "description" : "This is a react site for my mom to display and sell the numerous litter of puppies she's had",
+    "madeWith" : ["React", "Express"],
+    "sourceLink" : "https://glitch.com/edit/#!/chow-chow-shop",
+    "siteLink" : "https://chow-chow-shop.glitch.me/"
+  },
+  {
+    "title" : "Ether Gift Card",
+    "photoLink" : "https://cdn.glitch.com/bbddd762-d831-470f-8c95-c27f41782ecb%2Fether_card_pending_filtered.png?v:1561839914720",
+    "photoDimension" : "is-2by1",
+    "description": "A single page gift card UI to a evm smart contract that held money. If you give it the right answers, it will send the money to an ethereum address I had setup for my mom.",
+    "madeWith" : ["React", "Truffle.js", "Ethereum"],
+    "sourceLink" : "https://glitch.com/edit/#!/ether-gift-card",
+    "siteLink" : "https://ether-gift-card.glitch.me",
+    "smartContract" : "https://github.com/BleedingEffigy/truffle-gift/blob/master/contracts/EtherGift.sol"
+  },
+  {
+    "title" : "US Deaths Project",
+    "photoLink" : "https://cdn.glitch.com/bbddd762-d831-470f-8c95-c27f41782ecb%2FUS_Death_Project.png?v:1568109985898",
+    "photoDimension" : "is-2by1",
+    "description" : "An addition to the adopt-an-api movement, which means developing an api for some flat dataset(think .xls or .cvs), to encourage innovation through consumption of open data. The api is built on express and sqlite. ",
+    "madeWith" : ["React", "Sqlite"],
+    "sourceLink" : "https://glitch.com/edit/#!/us-deaths-overview",
+    "siteLink" : "https://us-deaths-overview.glitch.me/"
+  }
+]

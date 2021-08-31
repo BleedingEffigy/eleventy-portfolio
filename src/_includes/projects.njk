@@ -1,41 +1,38 @@
 
-<section>
-        
-        <div class="level">
-          <div class='level-item'>
-            <div class='card' key="5">
-              <div class='card-image'>
-                <figure class="">
-                  <img src="">
+<section class='section'>
+{% for project in projects %}
+  <div class="content box">
+            <div class='columns is-gapless'>
+              <div class="column is-4">
+                <figure class="image is-2by1">
+                  <img src={{project.photoLink}}>
                 </figure>
               </div>
-              <div class='card-content'>
+              <div class='column'>
                 <div class='content'>
-                
+                  {{ project.description }}
+                </div>
+                <div class='level'>
+                  <div class='level-item'>
+                    <p>Made with <mark class='has-background-primary'> tag</mark></p>
+                  </div>
+                  <a href={{project.siteLink}} class='level-item'>
+                    <span class="icon has-text-primary">
+                      <i class="fas fa-external-link-alt fas"></i>
+                    </span>
+                  </a>
+                  <a href={{project.sourceLink}} class='level-item'>
+                    <span class="icon has-text-primary">
+                      <i class="fas fa-file-code fas"></i>
+                    </span>
+                  </a>
                 </div>
               </div>
-              <div class='card-footer'>
-                <div class='card-footer-item'>
-                  <p>Made with <mark class='has-background-primary'> tag</mark></p>
-                </div>
-                <a href="" class='card-footer-item'>
-                  <span class="icon has-text-primary">
-                    <i class="fas fa-external-link-alt fas"></i>
-                  </span>
-                </a>
-                <a href="" class='card-footer-item'>
-                  <span class="icon has-text-primary">
-                    <i class="fas fa-file-code fas"></i>
-                  </span>
-                </a>
+              <div class="column is-4">
+                <figure class="image is-2by1">
+                </figure>
               </div>
             </div>
-          </div> 
-          <div class='level-item'>
-             
-          </div> 
-          <div class='level-item'>
-             
-          </div> 
-        </div>
+  </div>
+{% endfor %}
     </section>
