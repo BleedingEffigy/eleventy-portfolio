@@ -1,0 +1,30 @@
+<section class="section">
+      <div class="box has-background-dark">
+        <h3 class="is-title is-size-3 has-text-primary">Skills</h3>
+        <div class="tags are-medium">
+        {% for word in keywords.skills%}
+          <span class="tag is-primary ">
+            {{word}}    
+          </span>
+        {% endfor %}
+        </div>
+        <br/>
+        <h3 class="is-title is-size-3 has-text-avocado">Tools & Architecture</h3>
+        <div class="tags are-medium">
+        {% for word in keywords.tools%}
+          <span class="tag is-avocado">
+            {{word}}    
+          </span>
+        {% endfor %}
+        </div>
+        <br/>
+        <h3 class="is-title is-size-3 has-text-plum">Buzzwords</h3>
+        <div class="tags are-medium">
+        {% for word in keywords.buzzwords %}
+          <span class="tag is-plum">
+            {{word}}    
+          </span>
+        {% endfor %}
+        </div>
+      </div
+    </section>
