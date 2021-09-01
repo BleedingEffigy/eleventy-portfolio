@@ -3,3 +3,4 @@ style.css*
 *.lock
 _site/
 src/img/
+.env
