@@ -5,5 +5,8 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve"
+  },
+  "devDependencies": {
+    "sass": "^1.38.2"
   }
 }
