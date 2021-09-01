@@ -10,13 +10,17 @@
               </div>
               <div class='column'>
                 <div class='content'>
+                  <h2 class="is-size-3"> {{project.title}} </h2>
                   <p class='is-size-5 has-text-weight-semibold'>
                   {{ project.description }}
                   </p>
                 </div>
                 <div class='level'>
                   <div class='level-item'>
-                    <p>Made with <mark class='has-background-primary'> tag</mark></p>
+                    <p class="is-italic">Made with <mark class='has-background-avocado'>
+                      {{ project.madeWith.join(" ")}}
+                    </mark>
+                    </p>
                   </div>
                   <a href={{project.siteLink}} class='level-item'>
                     <span class="icon has-text-primary">
