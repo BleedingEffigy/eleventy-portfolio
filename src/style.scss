@@ -21,8 +21,11 @@ $family-secondary: "Didot";
 
 $plum: #8881b6;
 $plum-invert: findColorInvert($plum);
+$avocado: #CAFEBF;
+$avocado-invert: findColorInvert($avocado);
 $addColors: (
- "plum":($plum, $plum-invert)
+ "plum":($plum, $plum-invert),
+ "avocado": ($avocado, $avocado-invert)
 );
 $colors: map-merge($colors, $addColors);
 
