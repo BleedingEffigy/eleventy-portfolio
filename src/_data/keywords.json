@@ -1,0 +1,5 @@
+{
+  "skills": ["clojure", "react", "gatsby", "redux", "es6", "html5", "css3", "sass", "bulma", "java", "c", "Django"],
+  "tools": ["Linux", "zsh", "git", "spacemacs", "digitalocean", "yarn", "leiningen", "tmux", "sqlite", "postgresql", "nginx", "pm2", "gunicorn", "netlify"],
+  "buzzwords": ["CS Knowledge", "Knowledge of coding langauges", "code optimization", "API's, info retrieval", "Software design", "Web apps", "distributed systems", "Observation", "planning", "problem solving", "collaboration", "communication", "active learning", "adaptibility", "innovation", "creativity", "organization", "leadership", "responsibility", "analysis"]
+}
