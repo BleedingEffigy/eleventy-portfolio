@@ -7,13 +7,13 @@ title: The Best Demo
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BlazoredPortfolio</title>
+    <title>Alex Hernandezs Dev Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4ea44914ae.js"></script>
 </head>
 <body>
-</html>
-<section class="hero is-fullheight">
+  <section class="hero is-fullheight">
       <div class='hero-head'>
       </div>
       <div class="hero-body has-text-centered">
@@ -32,7 +32,7 @@ title: The Best Demo
               </figure>
             </div>
           </div>
-          <p class="title is-1">
+          <p class="title is-1 is-family-code">
             Hello 🌐, my name is Alexander Hernandez.
           </p>
           <p class="subtitle is-3">
@@ -72,5 +72,36 @@ title: The Best Demo
         </div>
       </a>
     </section>
+    <section class="section">
+      <div class="box has-background-dark">
+        <h3 class="is-title is-size-3 has-text-primary">Skills</h3>
+        <div class="tags are-medium">
+        {% for word in keywords.skills%}
+          <span class="tag is-primary ">
+            {{word}}    
+          </span>
+        {% endfor %}
+        </div>
+        <br/>
+        <h3 class="is-title is-size-3 has-text-avocado">Tools & Architecture</h3>
+        <div class="tags are-medium">
+        {% for word in keywords.tools%}
+          <span class="tag is-avocado">
+            {{word}}    
+          </span>
+        {% endfor %}
+        </div>
+        <br/>
+        <h3 class="is-title is-size-3 has-text-plum">Buzzwords</h3>
+        <div class="tags are-medium">
+        {% for word in keywords.buzzwords %}
+          <span class="tag is-plum">
+            {{word}}    
+          </span>
+        {% endfor %}
+        </div>
+      </div
+    </section>
     {% include "projects.njk" %}
 </body>
+</html>
