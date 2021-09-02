@@ -1,7 +1,7 @@
 [
   { 
     "title" : "SFV Candle Shop",
-    "photoLink" : "https://ahernandez.dev/img/sfv_candles_home.png",
+    "photoLink" : "https://rosamint.org/img/sfv_candles_home.png",
     "photoDimension" : "is-2by1",
     "photoStructure" : "12 2by1 /img/sfv_candles_home.png,6 2by1 /img/sfv_candles_shop.png 6 2by1 /img/sfv_candles_cart.png",
     "description" : "a static ecommerce site for my mom to sell candles but she is not yet ready, so for that reason a payment system is left to be setup.",
@@ -11,21 +11,21 @@
   },
   {
     "title": "¡Aguas! Crypto",
-    "photoLink" : "https://ahernandez.dev/img/Aguas_Crypto_Homepage.png",
+    "photoLink" : "https://rosamint.org/img/Aguas_Crypto_Homepage.png",
     "photoDimension" : "is-2by1",
     "description" : "a webapp that compiles crypto market data into a form that is more easily digestible to me. It pulls data from express-backend, and collates and presents it through a react-made interface",
     "madeWith" : ["React", "Redis", "Express.js"],
-    "siteLink" : "https://www.ahernandez.dev/trade/",
+    "siteLink" : "https://www.rosamint.org/trade/",
     "sourceLink" : "https://glitch.com/edit/#!/us-deaths-overview"
   },
   {
     "title" : "Navy DEP Blog",
-    "photoLink" : "https://ahernandez.dev/img/Navy_DEP_Blog_screengrab.png",
+    "photoLink" : "https://rosamint.org/img/Navy_DEP_Blog_screengrab.png",
     "photoDimension" : "is-3by2",
     "description" : "A blog made with django for me to document my thoughts at a time when I thought I was going to be joining the navy.",
     "madeWith" : ["Django", "Postgresql"],
     "sourceLink" : "https://github.com/BleedingEffigy/navy-blog",
-    "siteLink" : "https://www.ahernandez.dev/navyblog/"
+    "siteLink" : "https://www.rosamint.org/navyblog/"
   },
   {
     "title" : "Puppy Shop",
