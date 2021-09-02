@@ -20,12 +20,15 @@ $family-secondary: "Didot";
 @import "/home/phantomhaze/Workspace/git/bulma/sass/utilities/derived-variables";
 
 $plum: #8881b6;
-$plum-invert: findColorInvert($plum);
+$plum-invert: findColorInvertu($plum);
 $avocado: #CAFEBF;
 $avocado-invert: findColorInvert($avocado);
+$aqua: #4EC99C;
+$aqua-invert: findColorInvert($avocado);
 $addColors: (
  "plum":($plum, $plum-invert),
- "avocado": ($avocado, $avocado-invert)
+ "avocado": ($avocado, $avocado-invert),
+ "aqua": ($aqua, $aqua-invert)
 );
 $colors: map-merge($colors, $addColors);
 
