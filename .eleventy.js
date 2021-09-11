@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
   // Copy `src/style.css` to `_site/style.css`
-  eleventyConfig.addPassthroughCopy("src/style.css");
+  eleventyConfig.addPassthroughCopy("src/style.min.css");
   // passthrough `dynamic-animations.js`
   eleventyConfig.addPassthroughCopy("src/dynamic-animations.js");
   // Set custom directories for input, output, includes, and data
