@@ -5,7 +5,11 @@
             <div class='columns is-gapless'>
               <div class="column is-4">
                 <figure class="image is-2by1">
-                  <img src={{project.photoLink}}>
+                  <picture>
+                    <source type="image/webp" srcset={{project.webpLink}}>
+                    <source type="image/png" srcset={{project.photoLink}}>
+                    <img src={{project.photoLink}}>
+                  </picture>
                 </figure>
               </div>
               <div class='column'>

@@ -1,7 +1,8 @@
 [
   { 
     "title" : "SFV Candle Shop",
-    "photoLink" : "https://rosamint.org/img/sfv_candles_home.png",
+    "photoLink" : "https://rosamint.org/images/sfv_candles_home.png",
+    "webpLink" : "https://rosamint.org/images/sfv_candles_home.webp",
     "photoDimension" : "is-2by1",
     "photoStructure" : "12 2by1 /img/sfv_candles_home.png,6 2by1 /img/sfv_candles_shop.png 6 2by1 /img/sfv_candles_cart.png",
     "description" : "a static ecommerce site for my mom to sell candles but she is not yet ready, so for that reason a payment system is left to be setup.",
@@ -11,7 +12,8 @@
   },
   {
     "title": "¡Aguas! Crypto",
-    "photoLink" : "https://rosamint.org/img/Aguas_Crypto_Homepage.png",
+    "photoLink" : "https://rosamint.org/images/Aguas_Crypto_Homepage.png",
+    "webpLink" : "https://rosamint.org/images/Aguas_Crypto_Homepage.webp",
     "photoDimension" : "is-2by1",
     "description" : "a webapp that compiles crypto market data into a form that is more easily digestible to me. It pulls data from express-backend, and collates and presents it through a react-made interface",
     "madeWith" : ["React", "Redis", "Express.js"],
@@ -20,7 +22,8 @@
   },
   {
     "title" : "Navy DEP Blog",
-    "photoLink" : "https://rosamint.org/img/Navy_DEP_Blog_screengrab.png",
+    "photoLink" : "https://rosamint.org/images/Navy_DEP_Blog_screengrab.png",
+    "webpLink" : "https://rosamint.org/images/Navy_DEP_Blog_screengrab.webp",
     "photoDimension" : "is-3by2",
     "description" : "A blog made with django for me to document my thoughts at a time when I thought I was going to be joining the navy.",
     "madeWith" : ["Django", "Postgresql"],
@@ -29,7 +32,8 @@
   },
   {
     "title" : "Puppy Shop",
-    "photoLink" : "https://cdn.glitch.com/bbddd762-d831-470f-8c95-c27f41782ecb%2FSFV-Chow-%20Front-Page.png?v:1561529442317",
+    "photoLink" : "https://rosamint.org/images/SFV-chow-chow-Landing.png",
+    "webpLink" : "https://rosamint.org/images/SFV-chow-chow-Landing.webp",
     "photoDimension" : "is-2by1",
     "description" : "This is a react site for my mom to display and sell the numerous litter of puppies she's had",
     "madeWith" : ["React", "Express"],
@@ -38,7 +42,8 @@
   },
   {
     "title" : "Ether Gift Card",
-    "photoLink" : "https://cdn.glitch.com/bbddd762-d831-470f-8c95-c27f41782ecb%2Fether_card_pending_filtered.png?v:1561839914720",
+    "photoLink" : "https://rosamint.org/images/Ether-Card-Cover.png",
+    "webpLink" : "https://rosamint.org/images/Ether-Card-Cover.webp",
     "photoDimension" : "is-2by1",
     "description": "A single page gift card UI to a evm smart contract that held money. If you give it the right answers, it will send the money to an ethereum address I had setup for my mom.",
     "madeWith" : ["React", "Truffle.js", "Ethereum"],
@@ -48,7 +53,8 @@
   },
   {
     "title" : "US Deaths Project",
-    "photoLink" : "https://cdn.glitch.com/bbddd762-d831-470f-8c95-c27f41782ecb%2FUS_Death_Project.png?v:1568109985898",
+    "photoLink" : "https://rosamint.org/images/US-Deaths-Cover.png",
+    "webpLink" : "https://rosamint.org/images/US-Deaths-Cover.webp",
     "photoDimension" : "is-2by1",
     "description" : "An addition to the adopt-an-api movement, which means developing an api for some flat dataset(think .xls or .cvs), to encourage innovation through consumption of open data. The api is built on express and sqlite. ",
     "madeWith" : ["React", "Sqlite"],
