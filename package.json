@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "bulma": "^0.9.3"
+    "bulma": "^0.9.3",
+    "eleventy-plugin-purgecss": "^0.1.1"
   },
   "scripts": {
     "build": "npx @11ty/eleventy",
