@@ -1,4 +1,6 @@
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
+const criticalCss = require("eleventy-critical-css");
+const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 
 
 module.exports = function(eleventyConfig) {
@@ -13,6 +15,10 @@ module.exports = function(eleventyConfig) {
     // Optional: Set quiet: true to suppress terminal output
     quiet: false,
   });
+  // add critical-css plugin
+    eleventyConfig.addPlugin(criticalCss);
+  // add lazy images
+    eleventyConfig.addPlugin(lazyImagesPlugin);
   // Set custom directories for input, output, includes, and data
   return {
     dir: {

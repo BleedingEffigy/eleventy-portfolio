@@ -2,13 +2,16 @@
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
     "bulma": "^0.9.3",
-    "eleventy-plugin-purgecss": "^0.1.1"
+    "eleventy-critical-css": "^1.0.0",
+    "eleventy-plugin-purgecss": "^0.1.1",
+    "eleventy-plugin-pwa": "^1.0.8"
   },
   "scripts": {
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve"
   },
   "devDependencies": {
+    "eleventy-plugin-lazyimages": "^2.1.0",
     "sass": "^1.38.2"
   }
 }
