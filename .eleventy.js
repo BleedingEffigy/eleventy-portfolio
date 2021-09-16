@@ -6,6 +6,17 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/style.min.css");
   // passthrough `dynamic-animations.js`
   eleventyConfig.addPassthroughCopy("src/dynamic-animations.js");
+  // add purgeCss plugin
+  eleventyConfig.addPlugin(purgeCssPlugin, {
+    // Optional: Specify the location of your PurgeCSS config
+    config: "./purgecss.config.js",
+    // Optional: Set quiet: true to suppress terminal output
+    quiet: false,
+  });
+  // add critical-css plugin
+    eleventyConfig.addPlugin(criticalCss);
+  // add lazy images
+    eleventyConfig.addPlugin(lazyImagesPlugin);
   // Set custom directories for input, output, includes, and data
   return {
     dir: {

@@ -4,3 +4,4 @@ node_modules/
 _site/
 src/img/
 .env
+.lazyimages.json
