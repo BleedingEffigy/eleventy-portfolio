@@ -1,5 +1,7 @@
 {
   "skills": ["clojure", "react", "gatsby", "redux", "es6", "html5", "css3", "sass", "bulma", "java", "c", "Django"],
   "tools": ["Linux", "zsh", "git", "spacemacs", "digitalocean", "yarn", "leiningen", "tmux", "sqlite", "postgresql", "nginx", "pm2", "gunicorn", "netlify"],
+  "skillIcons": ["/clojure/clojure-line.svg", "/react/react-original-wordmark.svg", "/gatsby/gatsby-original.svg", "/redux/redux-original.svg", "/javascript/javascript-original.svg", "/html5/html5-original.svg", "/css3/css3-plain-wordmark.svg", "/sass/sass-original.svg", "/bulma/bulma-plain.svg", "/java/java-original-wordmark.svg", "/c/c-original.svg", "/django/django-plain.svg", "/csharp/csharp-original.svg", "/tailwindcss/tailwindcss-plain.svg", "/nextjs/nextjs-original-wordmark.svg"],
+  "toolIcons": [ "/linux/linux-plain.svg", "/bash/bash-original.svg", "/git/git-original.svg", "/vim/vim-original.svg", "/digitalocean/digitalocean-original.svg", "/yarn/yarn-original.svg", "/postgresql/postgresql-original-wordmark.svg", "/nginx/nginx-original.svg", "/redhat/redhat-original.svg", "/debian/debian-original.svg", "/redis/redis-original.svg", "/amazonwebservices/amazonwebservices-original-wordmark.svg" ],
   "buzzwords": ["CS Knowledge", "Knowledge of coding langauges", "code optimization", "API's, info retrieval", "Software design", "Web apps", "distributed systems", "Observation", "planning", "problem solving", "collaboration", "communication", "active learning", "adaptibility", "innovation", "creativity", "organization", "leadership", "responsibility", "analysis"]
 }
