@@ -51,7 +51,9 @@ $colors: map-merge($colors, $addColors);
 body{
   // background: linear-gradient(to right top, #bea279, #8881b6);
   // background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-  background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+  //background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+	background: rgb(185,182,193);
+	background: linear-gradient(0deg, rgba(185,182,193,1) 0%, rgba(62,36,91,1) 25%, rgba(52,38,97,1) 38%, rgba(30,40,80,1) 47%, rgba(34,13,38,1) 50%, rgba(211,211,213,1) 51%, rgba(211,211,213,1) 52%, rgba(47,86,144,1) 80%, rgba(36,24,86,1) 100%); 
 }
 
 

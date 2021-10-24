@@ -11209,7 +11209,8 @@ a.has-text-aqua:hover, a.has-text-aqua:focus {
 }
 
 body {
-  background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+  background: #b9b6c1;
+  background: linear-gradient(0deg, #b9b6c1 0%, #3e245b 25%, #342661 38%, #1e2850 47%, #220d26 50%, #d3d3d5 51%, #d3d3d5 52%, #2f5690 80%, #241856 100%);
 }
 
 html {
