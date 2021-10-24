@@ -5,7 +5,7 @@
 // import the two below to work with bulmas initial variables and functions
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 @import "../node_modules/bulma/sass/utilities/functions";
-$primary: #f4bebd; 
+$primary: #241856; 
 //harmonized white and grays below
 $white: #FBEBEA;
 $grey: #918080;
@@ -25,10 +25,12 @@ $avocado: #CAFEBF;
 $avocado-invert: findColorInvert($avocado);
 $aqua: #4EC99C;
 $aqua-invert: findColorInvert($avocado);
+$pink: #ae247b;
+$pink-invert: findColorInvert($pink);
 $addColors: (
  "plum":($plum, $plum-invert),
- "avocado": ($avocado, $avocado-invert),
- "aqua": ($aqua, $aqua-invert)
+ "avocado": ($pink, $pink-invert),
+ "aqua": ($pink, $pink-invert)
 );
 $colors: map-merge($colors, $addColors);
 
