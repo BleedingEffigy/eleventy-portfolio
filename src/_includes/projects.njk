@@ -1,7 +1,7 @@
 
 <section class='section' id='projects'>
 {% for project in projects %}
-  <div class="content box dynamic_animations animate__animated ">
+  <div class="content has-background-grey-dark has-text-white box dynamic_animations animate__animated ">
             <div class='columns is-gapless'>
               <div class="column is-4">
                 <figure class="image is-2by1">
@@ -14,7 +14,7 @@
               </div>
               <div class='column'>
                 <div class='content'>
-                  <h2 class="is-size-3"> {{project.title}} </h2>
+                  <h2 class="is-size-3 has-text-light"> {{project.title}} </h2>
                   <p class='is-size-5 has-text-weight-semibold'>
                   {{ project.description }}
                   </p>
