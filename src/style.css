@@ -11221,6 +11221,12 @@ html {
   transition: 0.8s;
 }
 
+.glowing-border {
+  border: 5px solid #ae247b;
+  border-radius: 25px;
+  box-shadow: 0 0 30px #e367ab;
+}
+
 .gh-ribbon {
   font-family: Helvetica, Arial, sans-serif;
   width: 650px;
