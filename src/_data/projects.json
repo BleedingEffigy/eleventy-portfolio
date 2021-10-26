@@ -1,8 +1,8 @@
 [
   { 
     "title" : "SFV Candle Shop",
-    "photoLink" : "https://rosamint.org/images/sfv_candles_home.png",
-    "webpLink" : "https://rosamint.org/images/sfv_candles_home.webp",
+    "photoLink" : "https://rosamint.org/images/CandleShop.png",
+    "webpLink" : "https://rosamint.org/images/CandleShop.webp",
     "photoDimension" : "is-2by1",
     "photoStructure" : "12 2by1 /img/sfv_candles_home.png,6 2by1 /img/sfv_candles_shop.png 6 2by1 /img/sfv_candles_cart.png",
     "description" : "a static ecommerce site for my mom to sell candles but she is not yet ready, so for that reason a payment system is left to be setup.",
@@ -19,6 +19,16 @@
     "madeWith" : ["React", "Redis", "Express.js"],
     "siteLink" : "https://www.rosamint.org/trade/",
     "sourceLink" : "https://glitch.com/edit/#!/us-deaths-overview"
+  },
+  {
+    "title" : "US Deaths Project",
+    "photoLink" : "https://rosamint.org/images/USDeathsAPI.png",
+    "webpLink" : "https://rosamint.org/images/USDeathsApi.webp",
+    "photoDimension" : "is-2by1",
+    "description" : "An addition to the adopt-an-api movement, which means developing an api for some flat dataset(think .xls or .cvs), to encourage innovation through consumption of open data. The api is built on express and sqlite. ",
+    "madeWith" : ["React", "Sqlite"],
+    "sourceLink" : "https://github.com/BleedingEffigy/US-Deaths-API",
+    "siteLink" : "https://gentle-inlet-76524.herokuapp.com/"
   },
   {
     "title" : "Navy DEP Blog",
@@ -50,15 +60,6 @@
     "sourceLink" : "https://glitch.com/edit/#!/ether-gift-card",
     "siteLink" : "https://ether-gift-card.glitch.me",
     "smartContract" : "https://github.com/BleedingEffigy/truffle-gift/blob/master/contracts/EtherGift.sol"
-  },
-  {
-    "title" : "US Deaths Project",
-    "photoLink" : "https://rosamint.org/images/US-Deaths-Cover.png",
-    "webpLink" : "https://rosamint.org/images/US-Deaths-Cover.webp",
-    "photoDimension" : "is-2by1",
-    "description" : "An addition to the adopt-an-api movement, which means developing an api for some flat dataset(think .xls or .cvs), to encourage innovation through consumption of open data. The api is built on express and sqlite. ",
-    "madeWith" : ["React", "Sqlite"],
-    "sourceLink" : "https://glitch.com/edit/#!/us-deaths-overview",
-    "siteLink" : "https://us-deaths-overview.glitch.me/"
   }
+  
 ]
