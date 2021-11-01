@@ -35,10 +35,10 @@ My porfolio remade with eleventy
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">My 11ty portfolio</h3>
 
   <p align="center">
-    project_description
+    My web portfolio made using 11ty
     <br />
     <a href="https://github.com/BleedingEffigy/eleventy-portfolio"><strong>Explore the docs »</strong></a>
     <br />
@@ -86,22 +86,14 @@ My porfolio remade with eleventy
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `eleventy-portfolio`, `bleedingeffigy`, `alex-hernandez-cloud-dev`, `ahern077`, `gmail.com`, `project_title`, `project_description`
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [11ty](https://www.11ty.dev/)
+* [Bulma](https://bulma.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -110,7 +102,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -123,18 +114,17 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/BleedingEffigy/eleventy-portfolio.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Start the server
+   ```sh
+   npm start dev
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -143,8 +133,6 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -155,10 +143,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- Add a collage to each project
+- Add dates to each project
 
 See the [open issues](https://github.com/BleedingEffigy/eleventy-portfolio/issues) for a full list of proposed features (and known issues).
 
@@ -192,24 +178,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@bleedingeffigy](https://twitter.com/bleedingeffigy) - ahern077@gmail.com.com
+Alex Hernandez - [@bleedingeffigy](https://twitter.com/bleedingeffigy) - ahern077@gmail.com.com
 
 Project Link: [https://github.com/BleedingEffigy/eleventy-portfolio](https://github.com/BleedingEffigy/eleventy-portfolio)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
