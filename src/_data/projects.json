@@ -1,4 +1,15 @@
 [
+  {
+    "title" : "Blossom+",
+    "photoLink" : "/img/BlossomOG.png",
+    "webpLink" : "/img/BlossomOG.webp",
+    "photoDimension" : "is-2by1",
+    "photoStructure" : "12 2by1 /img/sfv_candles_home.png,6 2by1 /img/sfv_candles_shop.png 6 2by1 /img/sfv_candles_cart.png",
+    "description" : "Blossom+ is a tool that manages the daisyUI plugin for tailwindcss. As of now, it supports installing the plugin, and setting up the structures for custom theming.",
+    "madeWith" : ["Node.js", "Npm", "Astro"],
+    "siteLink" : "https://blossomplus.netlify.app/",
+    "sourceLink" : "https://github.com/BleedingEffigy/blossom-plus"
+  },
   { 
     "title" : "SFV Candle Shop",
     "photoLink" : "https://rosamint.org/images/CandleShop.png",
