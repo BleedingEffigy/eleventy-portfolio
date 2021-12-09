@@ -2,6 +2,5 @@ node_modules/
 *.map
 *.lock
 _site/
-src/img/
 .env
 .lazyimages.json
